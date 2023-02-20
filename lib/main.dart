@@ -40,10 +40,10 @@ void main() async {
     if (buildNumber > 19044) {
       runApp(const MyApp(isSupported: true));
     } else {
-      runApp(const MyApp(isSupported: false));
+      runApp(const MyApp(isSupported: true));
     }
   } else {
-    runApp(const MyApp(isSupported: false));
+    runApp(const MyApp(isSupported: true));
   }
 }
 
